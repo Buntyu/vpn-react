@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'AvenirLTSd-black';
+}
+/* header */
+.head{
+    height:80px;
+    background-color: #012355;
+    width: 100%;
+    position: relative;
+}
+ul.horizontal-list{
+    list-style-type: none;    
+}
+li.horizontal-list{
+   display:inline-block; 
+   padding-right: 30px; 
+}
+li a.horizontal-list{
+    color: white;
+    text-decoration: none;
+}
+ul.head {
+    display: flex;
+    justify-content: end;
+    padding:20px 0;
+}
+.rounded{
+    border-radius: 40px;
+    padding: 6px 18px;
+}
+/* toggal menu */
+.toggle-nav{
+    background-color: #005db8;
+    width: 18%;
+    padding: 60px 0px 10px 55px;
+    position: absolute;
+    right: 20px;
+    top:0px;
+    z-index: 1;
+}
+.close{
+    position: absolute;
+    top: 20px;
+    left: 180px;
+}
+.icons{
+    margin-right:15px;
+    margin-bottom: -5px;
+}
+.mt-8{
+    margin-top: 8px;
+}
+.rounded-toggle{
+    border-radius: 40px;
+    padding: 6px 36px;
+    background-color: #012355;
+    margin:12px 0 ;
+}
+
+@media screen and (max-width: 400px) {
+    .toggle-nav{
+        width: 65%;
+    }
+    
+}
+
+
+
+/* footer */
+
+.footer{
+    height:fit-content;
+    background-color: #012355;
+    width: 100%;
+    color: white;
+    padding: 120px 0 120px 100px;
+}
+.footer-wrp{
+    display: flex;
+    justify-content: center;
+}
+.footer-logo{
+    height:140px;
+}
+ul.horizontal-list-ft{
+    list-style-type: none;    
+}
+li.horizontal-list-ft{
+   display:inline-block; 
+   padding-right: 30px; 
+}
+li.horizontal-list-ft-btn{
+    display:inline-block; 
+}
+li a.horizontal-list-ft{
+    color: white;
+    text-decoration: none;
+}
+.foot-h6{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+}
+.ftr-text {
+    font-size: 16px;
+}
+.footer-btn{
+    border-radius: 40px;
+    padding: 6px 18px;
+    margin:0 20px 0;
+    background-color: white;
+    color: #012355;
+    font-size: 22px;
+    font-weight: normal;
+}
+.text3{
+    margin: 50px 0px;
+    font-size: 30px;
+}
+.pl-8{
+    padding-left: 70px;
+}
+.pl-5{
+    padding-left: 30px;
+}
+
+.copyrt{
+    text-align: center;
+    padding: 15px 0;   
+    font-size: 20px;
+    color: #012355;
+    background-color: #ffff;
+}
+
+@media only screen and (min-width: 320px) and (max-Width:760px) {
+    .footer{
+        padding: 120px 70px 120px;
+        overflow-x: hidden;
+    }
+    li.horizontal-list-ft{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 0px;
+    }
+    .pl-8{
+        padding-left: 0px;
+    }
+    .ftr-text {
+        line-height: 30px;
+    }
+    .footer-btn {
+    margin: 8px 20px 0
+    }
+    
+    
+}
+
